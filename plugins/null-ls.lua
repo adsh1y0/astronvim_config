@@ -13,6 +13,7 @@ return {
       -- null_ls.builtins.formatting.prettier,
       null_ls.builtins.formatting.black,
       null_ls.builtins.formatting.isort,
+      null_ls.builtins.formatting.jq,
       null_ls.builtins.diagnostics.pyproject_flake8,
     }
     config.root_dir = require("null-ls.utils").root_pattern(".venv", ".null-ls-root", ".git")
